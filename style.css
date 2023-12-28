@@ -142,3 +142,80 @@
 }
 
 
+/* Ecosystem Section  */
+
+.ecosystem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.ecosystem-img{
+    background-image: url('./Images/ecosystem.png');
+    background-size: cover;
+    width: 850px;
+    height: 552px;
+}
+
+.eco-item{
+    margin-top: 20px;
+}
+
+
+
+/* footer Section  */
+
+.footer-section{
+    border-top: 1px solid #eee;
+    display: flex;
+    height: 300px;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #b5b5cf;
+    font-size: 1rem;
+}
+
+.footer-logo{
+    height: 20px;
+    width: 130px;
+}
+
+.foot-bottom{
+    margin-top: 15px;
+}
+
+.footer-col ul li{
+    list-style: none;
+    margin-top: 15px;
+}
+
+.footer-col ul li a{
+    text-decoration: none;
+    color:  #424242;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.heading2{
+    font-weight: 700;
+    color:  #424242;
+    font-size: 1.8rem;
+}
+
+.para{
+    color:  #424242;
+    font-size: 1.2rem;
+}
