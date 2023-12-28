@@ -68,7 +68,7 @@
     text-align: center;
 }
 .box-inner{
-    margin-top: 1rem;
+    margin-top: 1.2rem;
 }
 
 .section-box-heading{
@@ -93,6 +93,52 @@
     border-radius: 3px;
 }
 
+/* section 2 */
 
+.section-2{
+    margin-top: 40px;
+    color:  #424242;
+}
+
+.section-largest-broker{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.largest-broker-img{
+    background-image: url('./Images/largest-broker.png');
+    background-size: cover;
+    height: 310px;
+    width: 432px;
+}
+
+
+.largest-broker-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 12px;
+    color:  #424242;
+    font-size: 1.1rem;
+}
+
+.broker-inner{
+    /* line-height: 1.5; */
+    margin-bottom: 30px;
+    /* padding: 12px 12px; */
+}
+
+.broker-rows{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.col{
+    margin-right: 50px;
+}
 
 
