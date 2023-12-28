@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Navbar Section  */
+
+.navbar{
+    /* background-color: yellow; */
+    height: 67.48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow:  2px 1px 2px #eee;
+}
+
+.logo img{
+    height: 20px;
+    width: 130px;
+}
+.logo{
+    text-align: left;
+    margin-left: 120px;
+}
+
+
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 120px;
+}
+
+.nav-links li{
+    list-style: none;
+}
+.nav-links li a{
+    color: #666666;
+    text-decoration: none;
+    margin-right: 35px;
+    font-size: 1rem;
+}
+.nav-links li a:hover{
+    color: #387ed1;;
+}
+
+
+/* Hero Section */
+
+.section{
+    color: #424242;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.section-img{
+    background-image: url('./Images/landing.png');
+    background-size: cover;
+    height: 150px;
+    width: 361px;
+}
+
+.section-box{
+    text-align: center;
+}
+.box-inner{
+    margin-top: 1rem;
+}
+
+.section-box-heading{
+    font-size: 2.5rem;
+}
+.section-box-para{
+    font-size: 1.3rem;
+}
+.btn{
+   background-color:#387ed1;
+   color: #fff;
+   border-radius: 3px;
+   height: 40px;
+   width: 25%;
+   border: none;
+   font-size:1.2rem ;
+
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+}
+
+
+
+
